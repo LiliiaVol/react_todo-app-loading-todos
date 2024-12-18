@@ -53,7 +53,6 @@ export const App: React.FC = () => {
     return <UserWarning />;
   }
 
-  // @ts-ignore
   return (
     <div className="todoapp">
       {/*#region TEST*/}
@@ -108,8 +107,6 @@ export const App: React.FC = () => {
                   const selectedValue = 'all' as FilterType;
 
                   setFilterType(selectedValue);
-
-                  console.log(selectedValue);
                 }}
               >
                 All
@@ -125,8 +122,6 @@ export const App: React.FC = () => {
                   const selectedValue = 'active' as FilterType;
 
                   setFilterType(selectedValue);
-
-                  console.log(selectedValue);
                 }}
               >
                 Active
@@ -142,8 +137,6 @@ export const App: React.FC = () => {
                   const selectedValue = 'completed' as FilterType;
 
                   setFilterType(selectedValue);
-
-                  console.log(selectedValue);
                 }}
               >
                 Completed
